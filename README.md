@@ -23,6 +23,11 @@ Example JSON Return:
 }
 ```
 
+# Using environment variables with the VS Code debugger
+I have included a /.vscode/launch.json file in this repo to make it easy to test the environments defined in the configuration file. This lets you easily pick which environment option you want to run (launch) in the VS Code debugger:
+
+![VS Code Debugger configurations](./images/VSCode_Debugger_Environment_Launch_Configurations.png)
+
 # Testing with Postman
 If you clone the repo you can also import the `NMC-HW1.postman_collection.json` into your local [Postman](https://www.getpostman.com/postman) application to more easily run a request against either the `staging` or `production` configuration. See the __NOTE__ section below about the WHATWG URL API. The included Postman collection file will pass in more request elements to better illustrate the WHATWG URL API functionality - assuming I did it right. 🤨
 

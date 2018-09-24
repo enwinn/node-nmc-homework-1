@@ -1,0 +1,187 @@
+{
+	"info": {
+		"_postman_id": "3cafada7-ca4d-4906-8678-b27442644c38",
+		"name": "NMC-HW1",
+		"description": "# Test for NMC Homework #1\n\n# staging:\n```js\nhttp://localhost:3000/hello/?hello=howdy&howdy=hello\n```\n\n\n# production:\n```js\nhttp://localhost:5000/hello/?hello=howdy&howdy=hello\n```\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "NMC-HW1 staging",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "LetMe!n!",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "SimonSez",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "foo",
+						"value": "bar"
+					},
+					{
+						"key": "fizz",
+						"value": "buzz"
+					},
+					{
+						"key": "apples",
+						"value": "oranges"
+					},
+					{
+						"key": "red",
+						"value": "blue"
+					},
+					{
+						"key": "Jerry",
+						"value": "rigged"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "This is the body we are sending for the payload."
+				},
+				"url": {
+					"raw": "localhost:3000/hello/?hello=howdy&howdy=hello",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"hello",
+						""
+					],
+					"query": [
+						{
+							"key": "hello",
+							"value": "howdy"
+						},
+						{
+							"key": "howdy",
+							"value": "hello"
+						}
+					]
+				},
+				"description": "# staging"
+			},
+			"response": []
+		},
+		{
+			"name": "NMC-HW1 production",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "LetMe!n!",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "SimonSez",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "foo",
+						"value": "bar"
+					},
+					{
+						"key": "fizz",
+						"value": "buzz"
+					},
+					{
+						"key": "apples",
+						"value": "oranges"
+					},
+					{
+						"key": "red",
+						"value": "blue"
+					},
+					{
+						"key": "Jerry",
+						"value": "rigged"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "This is the body we are sending for the payload."
+				},
+				"url": {
+					"raw": "localhost:5000/hello/?hello=howdy&howdy=hello",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"hello",
+						""
+					],
+					"query": [
+						{
+							"key": "hello",
+							"value": "howdy"
+						},
+						{
+							"key": "howdy",
+							"value": "hello"
+						}
+					]
+				},
+				"description": "# production"
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "6c249d73-52be-47fd-b5f6-4de8fa9f189b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "4a8bac82-dcf6-4812-a71d-d685ac0e21b2",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

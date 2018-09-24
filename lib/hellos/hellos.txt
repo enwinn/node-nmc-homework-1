@@ -1,0 +1,10 @@
+stanza=Hello (hello hello), is there anybody in there? Just nod if you can hear me.|song=Comfortably Numb|artist=Pink Floyd
+stanza=Hello, It's Me - I've thought about us for a long, long time.|song=Hello, It's Me|artist=Todd Rundgren
+stanza=Hello, Mary Lou - goodbye heart.|song=Hello Mary Lou|artist=Ricky Nelson
+stanza=Hello, how are you? Have you been alright through all these lonely lonely lonely lonely nights?|song=Telephone Line|artist=Electric Light Orchestra
+stanza=Hello, darkness, my old friend, I've come to talk with you again.|song=Sounds of Silence|artist=Simon & Garfunkel
+stanza=Hello, I love you, won't you tell me your name?|song=Hello, I Love You|artist=The Doors
+stanza=Hello, darlin', nice to see you, it's been a long time.|song=Hello Darlin'|artist=Conway Twitty
+stanza=Hello Mudda, hello fadda, here I am at Camp Granada.|song=Hello Mudda, Hello Fadda|artist=Allan Sherman
+stanza=Hello, Dolly, well, hello, Dolly - it's so nice to have you back where you belong.|song=Hello, Dolly|artist=Louis Armstrong
+stanza=Hello Again, hello, just called to say hello.|song=Hello Again|artist=Neil Diamond
